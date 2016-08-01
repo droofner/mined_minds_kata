@@ -1,3 +1,5 @@
-100. times do 
-	 puts 1 
-end 
+number = 1
+100.times do
+	puts number
+	number = number + 1
+end
