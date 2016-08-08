@@ -1,12 +1,12 @@
 def mined_minds(number)
 	if number % 3 == 0 && number % 5 == 0
-		puts "minedminds"
+		"minedminds"
 	elsif number % 5 == 0
-		puts "minds"
+		"minds"
 	elsif  number % 3 == 0
-		puts "mined"
+		"mined"
 	else number
-		puts number = number + 1
+		number
 	end		
 end
 
